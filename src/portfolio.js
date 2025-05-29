@@ -23,7 +23,8 @@ const greeting = {
   username: "Chaimaâ Ourgani",
   title: "Hi, I'm Chaimaâ",
   subTitle: emoji(
-    "A Passionate Data Scientist 🚀 with expertise in AI, ML, and data engineering. Skilled in using LLMs and generative AI to automate, optimize processes, and empower data-driven decisions."  ),
+    "A Passionate Data Scientist 🚀 with expertise in AI, ML, and data engineering. Skilled in using LLMs and generative AI to automate, optimize processes, and empower data-driven decisions."
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DATA SCIENTIST ENGINEER | AI, BIG DATA & CLOUD SOLUTIONS ENTHUSIAST",
+  subTitle:
+    "DATA SCIENTIST ENGINEER | AI, BIG DATA & CLOUD SOLUTIONS ENTHUSIAST",
   skills: [
     "⚡ Building and deploying machine learning and deep learning models (regression, classification, clustering), with strong skills in data preprocessing, cleaning, and feature engineering",
     "⚡ Exploratory data analysis and advanced data visualization for actionable insights",
@@ -56,26 +58,25 @@ const skillsSection = {
     "⚡ Developing and orchestrating Big Data ETL pipelines for scalable and efficient data processing",
     "⚡ Implementing scalable deployments using containerization (Docker), orchestration (Kubernetes/OpenShift), CI/CD, and monitoring tools (Dynatrace, OpenTelemetry)"
   ],
-softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "PyTorch", fontAwesomeClassname: "fas fa-brain" },
-    { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-project-diagram" },
-    { skillName: "Hugging Face", fontAwesomeClassname: "fas fa-robot" },
-    { skillName: "LangChain", fontAwesomeClassname: "fas fa-code-branch" },
-    { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-chart-line" },
-    { skillName: "Pandas", fontAwesomeClassname: "fas fa-table" },
-    { skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt" },
-    { skillName: "Matplotlib", fontAwesomeClassname: "fas fa-chart-bar" },
-    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-rocket" },
-    { skillName: "FAISS", fontAwesomeClassname: "fas fa-search" },
-    { skillName: "Hadoop", fontAwesomeClassname: "fas fa-server" },
-    { skillName: "Apache Spark", fontAwesomeClassname: "fas fa-bolt" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+  softwareSkills: [
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "PyTorch", fontAwesomeClassname: "fas fa-brain"},
+    {skillName: "TensorFlow", fontAwesomeClassname: "fas fa-project-diagram"},
+    {skillName: "Hugging Face", fontAwesomeClassname: "fas fa-robot"},
+    {skillName: "LangChain", fontAwesomeClassname: "fas fa-code-branch"},
+    {skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-chart-line"},
+    {skillName: "Pandas", fontAwesomeClassname: "fas fa-table"},
+    {skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt"},
+    {skillName: "Matplotlib", fontAwesomeClassname: "fas fa-chart-bar"},
+    {skillName: "FastAPI", fontAwesomeClassname: "fas fa-rocket"},
+    {skillName: "FAISS", fontAwesomeClassname: "fas fa-search"},
+    {skillName: "Hadoop", fontAwesomeClassname: "fas fa-server"},
+    {skillName: "Apache Spark", fontAwesomeClassname: "fas fa-bolt"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"}
   ],
   display: true
 };
-
 
 // Education Section
 
@@ -83,7 +84,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "National School of Computer Science and Systems Analysis(ENSIAS)",
+      schoolName:
+        "National School of Computer Science and Systems Analysis(ENSIAS)",
       logo: require("./assets/images/ensiasLogo.jpg"), // Make sure you have this logo in the correct path
       subHeader: "State Engineer Degree in Data Science and IoT",
       duration: "September 2021 - July 2024",
@@ -105,14 +107,14 @@ const educationInfo = {
     {
       schoolName: "Lycée El Baroudi, Casablanca, Morocco",
       logo: require("./assets/images/baroudiLogo.png"), // Replace with actual path or logo
-      subHeader: "International Scientific Baccalaureate – Mathematical Sciences A, French Option",
+      subHeader:
+        "International Scientific Baccalaureate – Mathematical Sciences A, French Option",
       duration: "September 2018 - July 2019",
       desc: "",
       descBullets: []
     }
   ]
 };
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -123,12 +125,13 @@ const techStack = {
       Stack: "Programming & Data Manipulation (Python, R, SQL, Pandas, NumPy)",
       progressPercentage: "95%"
     },
-        {
+    {
       Stack: "Data Visualization & Communication (Matplotlib, Seaborn, Plotly)",
       progressPercentage: "90%"
     },
-{
-      Stack: "Machine Learning (Regression, Classification, Time-Series, Clustering)",
+    {
+      Stack:
+        "Machine Learning (Regression, Classification, Time-Series, Clustering)",
       progressPercentage: "90%"
     },
     {
