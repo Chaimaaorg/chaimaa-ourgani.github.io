@@ -21,6 +21,9 @@ jobs:
         run: |
           npm install
       
+      - name: Check Prettier Version 📦
+        run: npx prettier --version
+        
       - name: Check Format
         run: |
           npm run check-format
