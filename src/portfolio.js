@@ -23,8 +23,7 @@ const greeting = {
   username: "Chaimaâ Ourgani",
   title: "Hi, I'm Chaimaâ",
   subTitle: emoji(
-    "A passionate Data Scientist 🚀 with expertise in AI, machine learning, and data engineering. Skilled in leveraging cutting-edge technologies like LLMs and generative AI to drive automation, optimize processes, and enable data-driven decision-making."
-  ),
+    "A Passionate Data Scientist 🚀 with expertise in AI, ML, and data engineering. Skilled in using LLMs and generative AI to automate, optimize processes, and empower data-driven decisions."  ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -49,76 +48,34 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DATA SCIENTIST ENGINEER | AI, BIG DATA & CLOUD SOLUTIONS ENTHUSIAST",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "⚡ Building and deploying machine learning and deep learning models (regression, classification, clustering), with strong skills in data preprocessing, cleaning, and feature engineering",
+    "⚡ Exploratory data analysis and advanced data visualization for actionable insights",
+    "⚡ Designing RESTful APIs to integrate ML models and Generative AI solutions into production-ready applications",
+    "⚡ Developing and orchestrating Big Data ETL pipelines for scalable and efficient data processing",
+    "⚡ Implementing scalable deployments using containerization (Docker), orchestration (Kubernetes/OpenShift), CI/CD, and monitoring tools (Dynatrace, OpenTelemetry)"
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+softwareSkills: [
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "PyTorch", fontAwesomeClassname: "fas fa-brain" },
+    { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-project-diagram" },
+    { skillName: "Hugging Face", fontAwesomeClassname: "fas fa-robot" },
+    { skillName: "LangChain", fontAwesomeClassname: "fas fa-code-branch" },
+    { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "Pandas", fontAwesomeClassname: "fas fa-table" },
+    { skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt" },
+    { skillName: "Matplotlib", fontAwesomeClassname: "fas fa-chart-bar" },
+    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-rocket" },
+    { skillName: "FAISS", fontAwesomeClassname: "fas fa-search" },
+    { skillName: "Hadoop", fontAwesomeClassname: "fas fa-server" },
+    { skillName: "Apache Spark", fontAwesomeClassname: "fas fa-bolt" },
+    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Education Section
 
@@ -126,26 +83,36 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "National School of Computer Science and Systems Analysis(ENSIAS)",
+      logo: require("./assets/images/ensiasLogo.jpg"), // Make sure you have this logo in the correct path
+      subHeader: "State Engineer Degree in Data Science and IoT",
+      duration: "September 2021 - July 2024",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Main Courses: Machine Learning, Deep Learning, Big Data, NLP, Computer Vision, Web Mining, Data Mining, IoT, DevOps & Cloud, Advanced Statistics, Data Structures, Software Project Management"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Lycée d’Excellence, Ben Guerir, Morocco",
+      logo: require("./assets/images/lydexLogo.png"), // Replace with actual path or logo
+      subHeader: "Preparatory Classes for Engineering Schools (CPGE)",
+      duration: "September 2019 - July 2021",
+      desc: "",
+      descBullets: [
+        "Main Courses: Advanced Mathematics, Algorithms, Programming (Python, SQL), Probability and Statistics"
+      ]
+    },
+    {
+      schoolName: "Lycée El Baroudi, Casablanca, Morocco",
+      logo: require("./assets/images/baroudiLogo.png"), // Replace with actual path or logo
+      subHeader: "International Scientific Baccalaureate – Mathematical Sciences A, French Option",
+      duration: "September 2018 - July 2019",
+      desc: "",
+      descBullets: []
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -153,16 +120,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Programming & Data Manipulation (Python, R, SQL, Pandas, NumPy)",
+      progressPercentage: "95%"
+    },
+        {
+      Stack: "Data Visualization & Communication (Matplotlib, Seaborn, Plotly)",
+      progressPercentage: "90%"
+    },
+{
+      Stack: "Machine Learning (Regression, Classification, Time-Series, Clustering)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Specialized Domains (NLP, Speech-to-Text, Computer Vision)",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -384,7 +355,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "+212 641974324",
   email_address: "chaimaa_ourgani@outlook.com"
 };
 
