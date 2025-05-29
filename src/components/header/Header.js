@@ -25,7 +25,12 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name" style={{ color: isDark ? "#fff" : "#e7553c" }}>{greeting.username}</span>
+          <span
+            className="logo-name"
+            style={{color: isDark ? "#fff" : "#e7553c"}}
+          >
+            {greeting.username}
+          </span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />

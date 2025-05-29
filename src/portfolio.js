@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi, I'm Chaimaâ",
   subTitle: emoji(
     "A passionate Data Scientist 🚀 with expertise in AI, machine learning, and data engineering. Skilled in leveraging cutting-edge technologies like LLMs and generative AI to drive automation, optimize processes, and enable data-driven decision-making."
-    ),
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
