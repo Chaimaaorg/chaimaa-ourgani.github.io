@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.956f1d12.css",
-    "main.js": "/portfolio/static/js/main.49bf9a58.js",
+    "main.css": "/portfolio/static/css/main.ea688cf1.css",
+    "main.js": "/portfolio/static/js/main.e61bf7f8.js",
     "static/css/64.7fbe6150.chunk.css": "/portfolio/static/css/64.7fbe6150.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/portfolio/static/js/64.41912c0a.chunk.js",
-    "static/css/769.0b8f186f.chunk.css": "/portfolio/static/css/769.0b8f186f.chunk.css",
+    "static/css/769.a27d53e0.chunk.css": "/portfolio/static/css/769.a27d53e0.chunk.css",
     "static/js/769.6b18baac.chunk.js": "/portfolio/static/js/769.6b18baac.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/baroudiLogo.png": "/portfolio/static/media/baroudiLogo.58d425cf8055195cb414.png",
@@ -23,15 +23,15 @@
     "static/media/realEstateForecasting.webp": "/portfolio/static/media/realEstateForecasting.25d4c211982412b28a47.webp",
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/portfolio/index.html",
-    "main.956f1d12.css.map": "/portfolio/static/css/main.956f1d12.css.map",
-    "main.49bf9a58.js.map": "/portfolio/static/js/main.49bf9a58.js.map",
+    "main.ea688cf1.css.map": "/portfolio/static/css/main.ea688cf1.css.map",
+    "main.e61bf7f8.js.map": "/portfolio/static/js/main.e61bf7f8.js.map",
     "64.7fbe6150.chunk.css.map": "/portfolio/static/css/64.7fbe6150.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/portfolio/static/js/64.41912c0a.chunk.js.map",
-    "769.0b8f186f.chunk.css.map": "/portfolio/static/css/769.0b8f186f.chunk.css.map",
+    "769.a27d53e0.chunk.css.map": "/portfolio/static/css/769.a27d53e0.chunk.css.map",
     "769.6b18baac.chunk.js.map": "/portfolio/static/js/769.6b18baac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.956f1d12.css",
-    "static/js/main.49bf9a58.js"
+    "static/css/main.ea688cf1.css",
+    "static/js/main.e61bf7f8.js"
   ]
 }
