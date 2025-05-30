@@ -122,12 +122,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Programming & Data Manipulation (Python, R, SQL, Pandas, NumPy)",
+      Stack: "Programming & Data Manipulation",
       progressPercentage: "95%"
-    },
-    {
-      Stack: "Data Visualization & Communication (Matplotlib, Seaborn, Plotly)",
-      progressPercentage: "90%"
     },
     {
       Stack:
@@ -137,6 +133,10 @@ const techStack = {
     {
       Stack: "Specialized Domains (NLP, Speech-to-Text, Computer Vision)",
       progressPercentage: "80%"
+    },
+    {
+      Stack: "Data Visualization & Communication",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -145,43 +145,45 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, // Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Data Scientist",
       company: "Attijariwafa Bank",
-      companylogo: require("./assets/images/awbLogo2.jpg"),
+      companylogo: require("./assets/images/awbLogo.png"),
       date: "Sept 2024 – Present",
-      desc: "Contributing to advanced AI solutions including LLM-based classification, OCR, smart APIs, and large-scale data pipelines for improving automation, efficiency, and data insight extraction.",
+      desc: "Developed advanced AI/ML solutions to enhance client interaction, automate processes, and scale data pipelines within the bank’s data infrastructure.",
       descBullets: [
-        "Built LLM fine-tuning solutions for text classification and speech-to-text tasks using LoRA, Hugging Face, and PyTorch.",
-        "Automated internal processes with RAG architecture-based chatbots and APIs using LangChain, FAISS, FastAPI, and Ollama.",
-        "Designed an OCR extraction system reducing manual data entry by 10–15%, deployed via LangChain and FastAPI.",
-        "Created a data stream reconciliation workflow using PySpark, fuzzy matching, and vectorization techniques.",
-        "Optimized big data pipelines with PySpark, Scala, Hive, and Oozie, achieving a 70% reduction in execution time."
+        "Designed LLM fine-tuning solutions for text classification and speech transcription (user experience, complaints..)",
+        "Automated internal processes using generative AI and RAG-based chatbots and APIs",
+        "Implemented OCR-based financial data extraction system, reducing data entry time by 10–15%.",
+        "Built data stream reconciliation workflows with fuzzy matching and text vectorization using.",
+        "Optimized large-scale big data pipelines, achieving a 70% reduction in execution time."
+        // "Machine Learning & NLP: LoRA, Hugging Face, PyTorch, Librosa, SpaCy, Scikit-learn, Scipy",
+        // "Generative AI & RAG APIs: LangChain, FAISS, Ollama, OpenAI, Boto3, FastAPI",
+        // "Data Engineering & Orchestration: PySpark, Scala, Hive, Oozie, Scipy"
       ]
     },
     {
       role: "Data Scientist Intern (Graduation Project)",
       company: "Attijariwafa Bank",
-      companylogo: require("./assets/images/awbLogo2.jpg"),
+      companylogo: require("./assets/images/awbLogo.png"),
       date: "Feb 2024 – Jun 2024",
-      desc: "Developed an AI-powered voice assistant and chatbot platform to improve accessibility and automate customer service in eBanking applications.",
+      desc: "Developed a voice assistant to enhance accessibility to eBanking services for visually impaired users, with robust voice authentication and NLP capabilities.",
       descBullets: [
-        "Trained a Siamese neural network for secure voice authentication using user voiceprints.",
-        "Built a conversational agent with intent classification, NER, contextual switching, and RAG for FAQ automation.",
-        "Benchmarked and fine-tuned ML and transformer models for intent classification and entity recognition."
+        "Trained a siamese neural network for secure voice authentication via voiceprints.",
+        "Built a conversational agent with intent classification, NER, contextual switching, and a RAG system for FAQ automation.",
+        "Benchmarked and fine-tuned transformer and ML models for improved NLP performance."
       ]
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer Intern (PFA)",
       company: "Districap",
       companylogo: require("./assets/images/districapLogo.png"),
       date: "Jul 2023 – Aug 2023",
-      desc: "Developed a cross-platform mobile e-commerce application for Districap using Flutter, targeting both Android and iOS devices.",
+      desc: "Designed and developed a cross-platform mobile e-commerce application.",
       descBullets: [
-        "Built mobile UI and functionality using Flutter and Dart.",
-        "Integrated backend services using Firebase for authentication and data handling."
+        "Developed a mobile e-commerce app using Flutter for Android and iOS, integrating Firebase services."
       ]
     }
   ]
@@ -199,28 +201,41 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME DATA SCIENCE PROJECTS THAT I DESIGNED AND DEVELOPED",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/realEstateForecasting.webp"),
+      projectName: "Real Estate Price Forecasting Platform",
+      projectDesc:
+        "An end-to-end machine learning application predicting real estate prices using Python, Flask, and scikit-learn, with full-stack deployment including HTML/CSS/JS.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on GitHub",
+          url: "https://github.com/Chaimaaorg/Platform-for-Real-Estate-Price-Forcasting"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/dermaidLogo.webp"),
+      projectName: "DermAid - AI Copilot for Skin Cancer Detection",
+      projectDesc:
+        "An AI-powered application that assists in the early detection of skin cancer by analyzing images of skin lesions. Built with PyTorch, FastAPI, and Dialogflow, it offers real-time risk assessments through a conversational interface.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/Chaimaaorg/DermAid---AI-Copilot-for-Skin-Cancer-Detection"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/attendAILogo.webp"),
+      projectName: "AttendAI - Real-Time Face Recognition System",
+      projectDesc:
+        "A real-time facial recognition system for contactless attendance tracking, built using OpenCV and KNN, featuring live video processing and secure local data storage.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Chaimaaorg/AttendAI"
         }
       ]
     }
@@ -238,57 +253,71 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Python for Data Science and Machine Learning Bootcamp",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed certification on Udemy covering full data science and ML workflow.",
+      image: require("./assets/images/udemyLogo.webp"),
+      imageAlt: "Udemy Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certificate",
+          url: "https://www.udemy.com/certificate/UC-afbb1ab7-953c-4dcf-a899-9fd7510f89c9"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Complete Tensorflow 2 and Keras Deep Learning Bootcamp",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Mastered deep learning using TensorFlow 2.0 and Keras on Udemy.",
+      image: require("./assets/images/udemyLogo.webp"),
+      imageAlt: "Udemy Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://www.udemy.com/certificate/UC-69bf675d-bcf5-4b38-9744-0edfab34a226/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "🏅 Kaggle Bronze Medalist",
+      subtitle:
+        "Bronze Medalist (Top 10%) for high-performing Kaggle notebooks in machine learning and data science contributions.",
+      image: require("./assets/images/kaggleLogo.webp"),
+      imageAlt: "Kaggle",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Kaggle Notebooks",
+          url: "https://www.kaggle.com/chaimaourgani/code"
+        }
+      ]
+    },
+    {
+      title: "LLM Fine-Tuning Fundamentals & GPT Model Fine-Tuning",
+      subtitle: "Completed advanced LLM fine-tuning course on Udemy.",
+      image: require("./assets/images/udemyLogo.webp"),
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.udemy.com/certificate/UC-faaad16b-3d60-4db8-ac76-08d5036a98d7"
         }
       ]
     }
+    // {
+    //   title: "Vector Databases Fundamentals (FAISS, Pinecone, Chroma)",
+    //   subtitle: "Gained hands-on experience with modern vector databases.",
+    //   image: require("./assets/images/udemyLogo.webp"),
+    //   imageAlt: "Udemy Logo",
+    //   footerLink: [
+    //     {
+    //       name: "View Certificate",
+    //       url: "https://www.udemy.com/certificate/UC-20e03521-c61e-4cdf-b601-bb712080f9d8"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 // Blogs Section
 
 const blogSection = {
