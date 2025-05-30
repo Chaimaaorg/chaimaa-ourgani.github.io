@@ -33,10 +33,10 @@ To view the live version of my portfolio, [**click here**](https://chaimaaorg.gi
 
 You’ll need the following installed:
 
-* [Node.js](https://nodejs.org/) (v10.16.0 or higher)
-* [npm](https://www.npmjs.com/) (v6.9.0 or higher)
-* [Git](https://git-scm.com/)
-* Or use [Docker](https://www.docker.com/products/docker-desktop)
+- [Node.js](https://nodejs.org/) (v10.16.0 or higher)
+- [npm](https://www.npmjs.com/) (v6.9.0 or higher)
+- [Git](https://git-scm.com/)
+- Or use [Docker](https://www.docker.com/products/docker-desktop)
 
 Clone the repository and run:
 
@@ -65,10 +65,10 @@ Customize everything in `src/portfolio.js`. This is where you update all portfol
 
 Key files to update:
 
-* `src/portfolio.js`: Your content
-* `src/_globalColor.scss`: Your theme
-* `src/assets/lottie`: For Lottie animations (JSON)
-* `src/index.html`: SEO meta and page title
+- `src/portfolio.js`: Your content
+- `src/_globalColor.scss`: Your theme
+- `src/assets/lottie`: For Lottie animations (JSON)
+- `src/index.html`: SEO meta and page title
 
 ---
 
@@ -96,20 +96,20 @@ You can host your portfolio using GitHub Pages or another service of your choice
 
 For GitHub Pages:
 
-* Set the `homepage` field in `package.json` to:
+- Set the `homepage` field in `package.json` to:
   `https://<your-github-username>.github.io/<repository-name>`
-* Use GitHub Actions for CI/CD (recommended). [Setup instructions](https://docs.github.com/en/actions)
+- Use GitHub Actions for CI/CD (recommended). [Setup instructions](https://docs.github.com/en/actions)
 
 ---
 
 ## 🛠 Technologies Used
 
-* React.js ⚛️
-* SCSS for styling 🎨
-* GitHub API for open-source projects 📦
-* Medium API for blog integration 📰
-* Docker 🐳 (Optional)
-* Lottie Animations 🕹️
+- React.js ⚛️
+- SCSS for styling 🎨
+- GitHub API for open-source projects 📦
+- Medium API for blog integration 📰
+- Docker 🐳 (Optional)
+- Lottie Animations 🕹️
 
 ---
 
@@ -129,6 +129,6 @@ This project is licensed under the [MIT License](https://github.com/saadpasta/de
 
 Want to connect?
 
-* GitHub: [github.com/chaimaaorg](https://github.com/chaimaaorg)
-* LinkedIn: [linkedin.com/in/chaimaâ-ourgani-65a422273/](https://linkedin.com/in/chaimaâ-ourgani-65a422273/)
-* Email: [chaimaa_ourgani@outlook.com](mailto:chaimaa_ourgani@outlook.com)
+- GitHub: [github.com/chaimaaorg](https://github.com/chaimaaorg)
+- LinkedIn: [linkedin.com/in/chaimaâ-ourgani-65a422273/](https://linkedin.com/in/chaimaâ-ourgani-65a422273/)
+- Email: [chaimaa_ourgani@outlook.com](mailto:chaimaa_ourgani@outlook.com)

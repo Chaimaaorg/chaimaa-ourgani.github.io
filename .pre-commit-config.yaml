@@ -1,7 +1,7 @@
 repos:
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v3.1.0"  # Use latest stable version
+    rev: "v3.1.0" # Use latest stable version
     hooks:
       - id: prettier
-        files: \.(js|css|json|scss)$  # Regex to match all required files
-        args: [--write, --ignore-unknown]  # Auto-fix files
+        files: \.(js|css|json|scss)$ # Regex to match all required files
+        args: [--write, --ignore-unknown] # Auto-fix files
