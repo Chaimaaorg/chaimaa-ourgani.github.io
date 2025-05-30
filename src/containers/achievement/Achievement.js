@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import "./Achievement.scss";
+import Button from "../../components/button/Button";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
 import {Fade} from "react-reveal";
@@ -52,6 +53,12 @@ export default function Achievement() {
           </div>
         </div>
       </div>
+      <Button
+        text={"More Certifications"}
+        className="project-button"
+        href="https://drive.google.com/drive/folders/1E7UYL2dasXPDGYW731hhLtZgnCnEK9Mz?usp=sharing"
+        newTab={true}
+      />
     </Fade>
   );
 }
