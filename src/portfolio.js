@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Chaimaâ Ourgani",
+  username: "Chaimaa O.",
   title: "Hi, I'm Chaimaâ",
   subTitle: emoji(
     "A Passionate Data Scientist 🚀 with expertise in AI, ML, and data engineering. Skilled in using LLMs and generative AI to automate, optimize processes, and empower data-driven decisions."
@@ -122,20 +122,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Programming & Data Manipulation",
+      Stack: "🧮 Coding & Data",
       progressPercentage: "95%"
     },
     {
-      Stack:
-        "Machine Learning (Regression, Classification, Time-Series, Clustering)",
+      Stack: "🧠 Machine Learning",
       progressPercentage: "90%"
     },
     {
-      Stack: "Specialized Domains (NLP, Speech-to-Text, Computer Vision)",
+      Stack: "🔊 NLP · Speech · Vision",
       progressPercentage: "80%"
     },
     {
-      Stack: "Data Visualization & Communication",
+      Stack: "📊 Data Visualization",
       progressPercentage: "90%"
     }
   ],
@@ -228,7 +227,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/attendAILogo.webp"),
+      image: require("./assets/images/attendAILogo (1).webp"),
       projectName: "AttendAI - Real-Time Face Recognition System",
       projectDesc:
         "A real-time facial recognition system for contactless attendance tracking, built using OpenCV and KNN, featuring live video processing and secure local data storage.",
